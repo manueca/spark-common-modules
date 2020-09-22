@@ -1,8 +1,15 @@
-import org.apache.spark.sql.DataFrame
+import org.apache.spark.sql.DataFrame;
+import org.apache.spark.sql.SparkSession;
+import org.apache.spark.sql.DataFrame ;
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+import java.util.Calendar;
+import java.util.concurrent.TimeUnit;
+import sys.process._;
 
 object ingestFunctions {
 
-	def readFunctions(format:String="csv",location:String ="s3://zz-testing/jcher2/csv/test.csv",table:String="test",where_clause:String="1=1"): DataFrame = {
+	def readFunctions(spark:SparkSession,format:String="csv",location:String ="s3://zz-testing/jcher2/csv/test.csv",table:String="test",where_clause:String="1=1"): DataFrame = {
 		var df =spark.sql("select 'Non Configured Format' ")
 		var query="";
 		println (format);
@@ -46,3 +53,9 @@ object ingestFunctions {
 
 
 
+
+
+
+
+//val df1=readFunctions(format="hive",table="dsmsca_processed.inventory_allocation_summary_detail")
+//val df1=readFunctions()
