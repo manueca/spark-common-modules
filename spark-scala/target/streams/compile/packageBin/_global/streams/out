@@ -1,9 +1,17 @@
 [0m[[0m[0mdebug[0m] [0m[0mPackaging /Users/jcher2/Documents/jerry_git/spark-common-modules/spark-scala/target/scala-2.11/common_modules_2.11-1.0.11.jar ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	transformFunctions.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/jcher2/Documents/jerry_git/spark-common-modules/spark-scala/target/scala-2.11/classes/transformFunctions.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	common_functions$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/jcher2/Documents/jerry_git/spark-common-modules/spark-scala/target/scala-2.11/classes/common_functions$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ingestFunctions$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/jcher2/Documents/jerry_git/spark-common-modules/spark-scala/target/scala-2.11/classes/ingestFunctions$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	common_functions.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/jcher2/Documents/jerry_git/spark-common-modules/spark-scala/target/scala-2.11/classes/common_functions.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	common_functions$$anonfun$hdfs_write$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/jcher2/Documents/jerry_git/spark-common-modules/spark-scala/target/scala-2.11/classes/common_functions$$anonfun$hdfs_write$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ingestFunctions.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/jcher2/Documents/jerry_git/spark-common-modules/spark-scala/target/scala-2.11/classes/ingestFunctions.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	transformFunctions$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/jcher2/Documents/jerry_git/spark-common-modules/spark-scala/target/scala-2.11/classes/transformFunctions$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
